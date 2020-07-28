@@ -9,7 +9,7 @@ use std::io::{stdin, stdout, Write};
 /// # Remarks
 ///
 /// This is a convenience function that just shortens the amount of code that is
-/// necessary to recieve user input in response to a prompt, such as a question.
+/// necessary to receive user input in response to a prompt, such as a question.
 pub fn input(prompt: &str) -> String {
     print!("{}", prompt);
     let mut input = String::new();
